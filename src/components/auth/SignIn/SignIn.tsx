@@ -63,7 +63,7 @@ const SignIn = ({
                 }
                 onSignIn={onSignIn}
             />
-            <div className="mt-8">
+            {/* <div className="mt-8">
                 <div className="flex items-center gap-2 mb-6">
                     <div className="border-t border-gray-200 dark:border-gray-800 flex-1 mt-[1px]" />
                     <p className="font-semibold heading-text">
@@ -87,7 +87,7 @@ const SignIn = ({
                         Sign up
                     </ActionLink>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

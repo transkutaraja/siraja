@@ -10,46 +10,62 @@ export const protectedRoutes: Routes = {
             pageContainerType: 'contained',
         },
     },
-    '/item': {
-        key: 'item',
+    '/facility': {
+        key: 'inventory.facility',
         authority: [],
         meta: {
             pageBackgroundType: 'plain',
             pageContainerType: 'contained',
         },
     },
-    '/loan': {
-        key: 'transaction.loan',
+    '/bus': {
+        key: 'inventory.bus',
         authority: [],
         meta: {
             pageBackgroundType: 'plain',
             pageContainerType: 'contained',
         },
     },
-    '/maintenance': {
-        key: 'transaction.maintenance',
+    '/halte': {
+        key: 'inventory.halte',
         authority: [],
         meta: {
             pageBackgroundType: 'plain',
             pageContainerType: 'contained',
         },
     },
-    '/procurement': {
-        key: 'transaction.procurement',
-        authority: [],
-        meta: {
-            pageBackgroundType: 'plain',
-            pageContainerType: 'contained',
-        },
-    },
-    '/disposal': {
-        key: 'transaction.disposal',
-        authority: [],
-        meta: {
-            pageBackgroundType: 'plain',
-            pageContainerType: 'contained',
-        },
-    },
+    // '/loan': {
+    //     key: 'transaction.loan',
+    //     authority: [],
+    //     meta: {
+    //         pageBackgroundType: 'plain',
+    //         pageContainerType: 'contained',
+    //     },
+    // },
+    // '/maintenance': {
+    //     key: 'transaction.maintenance',
+    //     authority: [],
+    //     meta: {
+    //         pageBackgroundType: 'plain',
+    //         pageContainerType: 'contained',
+    //     },
+    // },
+    // '/procurement': {
+    //     key: 'transaction.procurement',
+    //     authority: [],
+    //     meta: {
+    //         pageBackgroundType: 'plain',
+    //         pageContainerType: 'contained',
+    //     },
+    // },
+    // '/disposal': {
+    //     key: 'transaction.disposal',
+    //     authority: [],
+    //     meta: {
+    //         pageBackgroundType: 'plain',
+    //         pageContainerType: 'contained',
+    //     },
+    // },
     '/category': {
         key: 'master.category',
         authority: [],
@@ -58,8 +74,8 @@ export const protectedRoutes: Routes = {
             pageContainerType: 'contained',
         },
     },
-    '/location': {
-        key: 'master.location',
+    '/track': {
+        key: 'master.track',
         authority: [],
         meta: {
             pageBackgroundType: 'plain',
@@ -68,6 +84,14 @@ export const protectedRoutes: Routes = {
     },
     '/user': {
         key: 'master.user',
+        authority: [],
+        meta: {
+            pageBackgroundType: 'plain',
+            pageContainerType: 'contained',
+        },
+    },
+    '/documentation': {
+        key: 'guide.documentation',
         authority: [],
         meta: {
             pageBackgroundType: 'plain',

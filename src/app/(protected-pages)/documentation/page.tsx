@@ -21,18 +21,18 @@ const Page = () => {
 						</BreadcrumbItem>
 						<BreadcrumbSeparator />
 						<BreadcrumbItem>
-							<BreadcrumbPage>Master Data</BreadcrumbPage>
+							<BreadcrumbPage>Guide</BreadcrumbPage>
 						</BreadcrumbItem>
 						<BreadcrumbSeparator />
 						<BreadcrumbItem>
-							<BreadcrumbPage>User</BreadcrumbPage>
+							<BreadcrumbPage>Documentation</BreadcrumbPage>
 						</BreadcrumbItem>
 					</BreadcrumbList>
 				</Breadcrumb>
 			</div>
 			<div className="flex items-center justify-between">
 				<div>
-					<h3 className="mb-1">User</h3>
+					<h3 className="mb-1">Documentation</h3>
 					<p>
 						Create an image with Generative AI by describing what
 						you&apos;d like to see. Please note, all images are shared
@@ -44,7 +44,7 @@ const Page = () => {
 				<AdaptiveCard>
 					<div className="flex flex-col gap-4">
 						<div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2">
-							<h3>Setting</h3>
+							<h3>Dokumentasi</h3>
 							{/* <CustomerListActionTools /> */}
 						</div>
 					</div>

@@ -25,14 +25,14 @@ const Page = () => {
 						</BreadcrumbItem>
 						<BreadcrumbSeparator />
 						<BreadcrumbItem>
-							<BreadcrumbPage>User</BreadcrumbPage>
+							<BreadcrumbPage>Rute Trayek</BreadcrumbPage>
 						</BreadcrumbItem>
 					</BreadcrumbList>
 				</Breadcrumb>
 			</div>
 			<div className="flex items-center justify-between">
 				<div>
-					<h3 className="mb-1">User</h3>
+					<h3 className="mb-1">Rute Trayek</h3>
 					<p>
 						Create an image with Generative AI by describing what
 						you&apos;d like to see. Please note, all images are shared

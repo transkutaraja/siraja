@@ -24,7 +24,7 @@ const Logo = (props: LogoProps) => {
         logoHeight,
     } = props
 
-    const width = logoWidth || (type === 'full' ? 120 : 40)
+    const width = logoWidth || (type === 'full' ? 160 : 40)
     const height = logoHeight || (type === 'full' ? 40 : 40)
 
     return (
