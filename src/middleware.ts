@@ -7,6 +7,8 @@ import {
 } from '@/configs/routes.config'
 import { REDIRECT_URL_KEY } from '@/constants/app.constant'
 import appConfig from '@/configs/app.config'
+import { updateSession } from './utils/superbase/middleware'
+import { NextRequest } from 'next/server'
 
 const { auth } = NextAuth(authConfig)
 
@@ -62,6 +64,11 @@ export default auth((req) => {
     //     }
     // }
 })
+
+export async function middleware(request: NextRequest) {
+  // update user's auth session
+  return await updateSession(request)
+}
 
 export const config = {
     matcher: ['/((?!.+\\.[\\w]+$|_next).*)', '/', '/(api)(.*)'],
